@@ -1,12 +1,15 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import "./Lobby.css";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Lobby.css';
 
 const Lobby = () => {
   const navigate = useNavigate();
+  const [state, setState] = React.useState({
+    userList: [],
+  });
 
   const signOut = () => {
-    navigate("/");
+    navigate('/');
   };
 
   return (

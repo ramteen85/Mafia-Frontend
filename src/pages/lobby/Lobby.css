@@ -1,38 +1,37 @@
 .lobby-container {
-    background: grey;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background: grey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .lobby-inner-container {
-    min-width: 300px;
-    width: 80%;
-    background: black;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  min-width: 300px;
+  width: 80%;
+  background: black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .lobby-inner-container h1 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 .lobby-btn {
-    padding: 1rem;
-    border: 1px solid blue;
-    background: transparent;
-    color: white;
-    cursor: pointer;
-
+  padding: 1rem;
+  border: 1px solid blue;
+  background: transparent;
+  color: white;
+  cursor: pointer;
 }
 
 .lobby-btn:hover {
-    background-color: blue;
+  background-color: blue;
 }
