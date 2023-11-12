@@ -1,0 +1,156 @@
+.navbar {
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.logo-wrapper {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.logo-wrapper > img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-right {
+  flex: 9;
+}
+
+.menu-list {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-item {
+  position: relative;
+  margin-right: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.menu-item:hover {
+  color: red;
+}
+
+.menu-item:hover > .submenu-list {
+  display: flex;
+  position: absolute;
+  background: darkblue;
+  flex-direction: column;
+  list-style: none;
+  z-index: 2;
+}
+
+.notif {
+  right: -100%;
+  cursor: default;
+}
+
+.notif > .submenu-item:hover {
+  background: darkblue;
+}
+
+.profile-shift {
+  left: -130%;
+  top: 100%;
+  min-width: 5rem !important;
+}
+
+.profile-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-wrapper > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.submenu-list {
+  display: none;
+}
+
+.submenu-item {
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  border-bottom: 1px solid lime;
+  width: 100%;
+  text-align: center;
+  min-width: 10rem;
+}
+
+.submenu-item:hover {
+  background: red;
+  color: white;
+}
+
+.player {
+  display: flex;
+}
+
+.player-icon {
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.player-icon > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.player-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 15rem;
+}
+
+.player-message > p {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  width: 100%;
+}
+
+.btn {
+  padding: 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.cancel {
+  background: red;
+  color: white;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.accept {
+  background: green;
+  color: white;
+}

@@ -1,19 +1,21 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Lobby.css';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Navbar from "../../components/navbar/Navbar";
+import "./Lobby.css";
 
 const Lobby = () => {
   const navigate = useNavigate();
   const [state, setState] = React.useState({
-    userList: [],
+    userList: []
   });
 
   const signOut = () => {
-    navigate('/');
+    navigate("/");
   };
 
   return (
     <div className="lobby-container">
+      <Navbar />
       <div className="lobby-inner-container">
         <h1>Welcome to the lobby</h1>
         <button className="lobby-btn" onClick={signOut}>
