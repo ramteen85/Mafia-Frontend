@@ -5,13 +5,14 @@
   display: flex;
   height: 120px;
   padding: 10px;
-  margin-bottom: 1rem;
+  position: fixed;
 }
 
 .logo-wrapper {
   width: 100%;
   height: 100%;
   flex: 1;
+  min-width: 150px;
 }
 
 .logo-wrapper > img {
@@ -51,6 +52,12 @@
   flex-direction: column;
   list-style: none;
   z-index: 2;
+}
+
+@media screen and (max-width: 450px) {
+  .menu-item-responsive {
+    display: none;
+  }
 }
 
 .notif {
@@ -96,6 +103,16 @@
 .submenu-item:hover {
   background: red;
   color: white;
+}
+
+.submenu-item-responsive {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .submenu-item-responsive {
+    display: block;
+  }
 }
 
 .player {
