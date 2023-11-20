@@ -255,25 +255,608 @@ const Lobby = () => {
         )}
         {((!state.leftSide && screenSize.width < 840) || screenSize.width >= 840) && (
           <div className="chat">
-            <div className="chat-window"></div>
+            <div className="chat-window">
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>
+                  <>
+                    <img src={gavelIMG} alt="" placeholder="Super Admin" />
+                    <span className="tooltip">Admin</span>
+                  </>
+                  :
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+              <div className="chat-message">
+                <div className="participant-name">
+                  <span>Ramski</span>:
+                </div>
+                <div className="participant-text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+                    quidem optio quae vitae eum quas quasi consectetur deserunt eligendi
+                    enim, aspernatur cupiditate, animi quos, mollitia impedit ipsam
+                    laborum illo itaque.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>
-      <div className="bottom-panel">
-        <div className="input-wrapper">
-          <input type="text" placeholder="Type a message..." className="message-box" />
-          <button className="send-btn">Send Message</button>
+      {((!state.leftSide && screenSize.width < 840) || screenSize.width >= 840) && (
+        <div className="bottom-panel">
+          <div className="input-wrapper">
+            <input type="text" placeholder="Type a message..." className="message-box" />
+            <button className="send-btn">Send</button>
+          </div>
         </div>
-        <div className="input-wrapper">
-          <input
-            type="text"
-            placeholder="Channel Name..."
-            defaultValue="Lobby-1"
-            className="channel"
-          />
-          <button className="go-btn">Switch Channel</button>
-        </div>
-      </div>
+      )}
     </div>
   );
 };
