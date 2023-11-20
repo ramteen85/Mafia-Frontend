@@ -3,7 +3,7 @@
   background: black;
   color: white;
   display: flex;
-  height: 120px;
+  height: 5rem;
   padding: 10px;
   position: fixed;
 }
@@ -15,7 +15,7 @@
   min-width: 150px;
 }
 
-.logo-wrapper > img {
+.logo-wrapper>img {
   width: 100%;
   height: 100%;
 }
@@ -45,7 +45,7 @@
   color: red;
 }
 
-.menu-item:hover > .submenu-list {
+.menu-item:hover>.submenu-list {
   display: flex;
   position: absolute;
   background: darkblue;
@@ -65,7 +65,7 @@
   cursor: default;
 }
 
-.notif > .submenu-item:hover {
+.notif>.submenu-item:hover {
   background: darkblue;
 }
 
@@ -80,7 +80,7 @@
   height: 100%;
 }
 
-.profile-wrapper > img {
+.profile-wrapper>img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -125,7 +125,7 @@
   height: 80px;
 }
 
-.player-icon > img {
+.player-icon>img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -139,7 +139,7 @@
   min-width: 15rem;
 }
 
-.player-message > p {
+.player-message>p {
   width: 100%;
   font-size: 1rem;
   margin-bottom: 1rem;
