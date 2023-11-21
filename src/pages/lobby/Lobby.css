@@ -132,20 +132,30 @@
 
 .participant-name {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .participant-name > span {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right: 0.5rem;
 }
 
 .participant-name > img {
   width: 1rem;
   height: 1rem;
+  margin-right: 0.3rem;
 }
 
 .participant-text {
-  padding-left: 1rem;
+  padding-left: 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.participant-text > p {
+  font-size: 1rem;
 }
 
 .bottom-panel {
@@ -164,6 +174,9 @@
 }
 
 @media screen and (max-width: 840px) {
+  .participant-name > span {
+    font-size: 1rem;
+  }
   .participant-text > p {
     font-size: 0.8rem;
   }

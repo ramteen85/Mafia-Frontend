@@ -76,6 +76,7 @@ const Navbar = () => {
               {state.name}
             </div>
             <ul className="submenu-list profile-shift">
+              <li className="submenu-item">Admin</li>
               <li className="submenu-item">Profile</li>
               <li className="submenu-item">Friends</li>
               <li className="submenu-item submenu-item-responsive">Notifications</li>
